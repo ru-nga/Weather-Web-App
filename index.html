@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button><i class="ri-search-2-line"></i></button>
+            
+        </div>
+        <div class="error">
+            <p class="error-msg">Enter Valid City Name !</p>
+        </div>
+        <div class="weather">
+            <img src="images/hero-wicon.png" class="W-IMG" >
+            <h1 class="temp">0°C</h1>
+            <h2 class="city">City Name</h2>
+        </div>
+        <div class="details">
+            <div class="col">
+                <img src="images/humidity.png" alt="humidity IMG">
+                <div >
+                    <p class="humidity">00%</p>
+                    <p>humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="images/wind.png" alt="wind IMG">
+                <div>
+                    <p class="wind">000 km/h</p>
+                    <p>Wind Speed   </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
